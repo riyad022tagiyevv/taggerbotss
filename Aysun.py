@@ -55,11 +55,11 @@ async def start(event):
      await client.send_message(log_qrup, f"**Yeni İstifadəçi:**\n{ad}")
      return await event.reply(f"{ad} {startmesaj}", buttons=(
                       [
-                       Button.url('🎉 Məni Qrupa Əlavə Et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
+                       Button.url('➕ Məni Qrupa Əlavə Et ➕', f'https://t.me/{USERNAME}?startgroup=a')],
                       [
-                       Button.url('📚 Əmrlər', f'https://t.me/Rahid_44'),
-                       Button.url('👩🏻‍💻 Sahibəm', f'https://t.me/noluf_du')],
-                       [Button.url('❤️ Kanalım', f'https://t.me/{support}')]
+                       Button.url('📚 Əmrlər', f'https://t.me/Rahid_44/32'),
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/Rahid_7')],
+                       [Button.url('📢 Kanal', f'https://t.me/{support}')]
                     ),
                     link_preview=False)
 
@@ -74,10 +74,10 @@ async def handler(event):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) Salam😍❤️"
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
-                       Button.url('🎉 Məni Qrupa Əlavə Et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
-                      [Button.url("📚 Əmrlər", f'https://t.me/Rahid_44'),
-                       Button.url('👩🏻‍💻 Sahibəm', f'https://t.me/noluf_du')]
-                       [Button.url('❤️ Kanalım', f'https://t.me/{support}')]
+                       Button.url('➕ Məni Qrupa Əlavə Et ➕', f'https://t.me/{USERNAME}?startgroup=a')],
+                      [Button.url("📚 Əmrlər", f'https://t.me/Rahid_44/32'),
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/noluf_du')]
+                       [Button.url('📢 Kanal', f'https://t.me/{support}')]
                     ),
                     link_preview=False)
 
@@ -86,8 +86,8 @@ async def handler(event):
 async def handler(event):
     await event.edit(f"{komutlar}", buttons=(
                       [
-                      Button.url('🥰 Qrupum', f'https://t.me/Cenublar'),
-                      Button.url('😍 Sahibəm', f'https://t.me/{sahib}')
+                      Button.url('💬 Söhbət Qrupu', f'https://t.me/Cenublar'),
+                      Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')
                       ],
                       [
                       Button.inline("👀 Geri Qayıt", data="start"),
