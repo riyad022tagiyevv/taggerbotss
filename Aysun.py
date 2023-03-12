@@ -96,7 +96,7 @@ async def handler(event):
                     link_preview=False)
 
 # 5 li etiketleme modulü
-@client.on(events.NewMessage(pattern="^/utag ?(.*)"))
+@client.on(events.NewMessage(pattern="^/tag ?(.*)"))
 async def mentionall(event):
   global etiket_tagger
   if event.is_private:
@@ -214,7 +214,7 @@ async def mentionalladmin(event):
 #########################
 
 # tek tek etiketleme modülü
-@client.on(events.NewMessage(pattern="^/tag ?(.*)"))
+@client.on(events.NewMessage(pattern="^/tektag ?(.*)"))
 async def tektag(event):
   global etiket_tagger
   if event.is_private:
