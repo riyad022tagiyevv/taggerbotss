@@ -193,7 +193,7 @@ async def mentionalladmin(event):
     usrtxt = ""
     async for usr in client.iter_participants(event.chat_id):
       usrnum += 1
-      usrtxt += f"• [{usr.first_name}](tg://user?id={usr.id}) "
+      usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in etiket_tagger:
         await event.respond("Tağ prosesi dayandırdım 👀",
                     buttons=(
@@ -252,7 +252,7 @@ async def tektag(event):
     usrtxt = ""
     async for usr in client.iter_participants(event.chat_id):
       usrnum += 1
-      usrtxt += f"• [{usr.first_name}](tg://user?id={usr.id}) "
+      usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in etiket_tagger:
         await event.respond("Tağ prosesi dayandırdım 👀",
                     buttons=(
