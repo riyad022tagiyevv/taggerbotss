@@ -58,7 +58,7 @@ async def start(event):
                        Button.url('🎉 Məni Qrupa Əlavə Et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
                       [
                        Button.url('📚 Əmrlər', f'https://t.me/Rahid_44'),
-                       Button.url('👨‍💻 Sahibəm', f'https://t.me/noluf_du')],
+                       Button.url('👩🏻‍💻 Sahibəm', f'https://t.me/noluf_du')],
                        [Button.url('❤️ Kanalım', f'https://t.me/{support}')]
                     ),
                     link_preview=False)
@@ -76,7 +76,7 @@ async def handler(event):
                       [
                        Button.url('🎉 Məni Qrupa Əlavə Et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
                       [Button.url("📚 Əmrlər", f'https://t.me/Rahid_44'),
-                       Button.url('👨‍💻 Sahibəm', f'https://t.me/noluf_du')]
+                       Button.url('👩🏻‍💻 Sahibəm', f'https://t.me/noluf_du')]
                        [Button.url('❤️ Kanalım', f'https://t.me/{support}')]
                     ),
                     link_preview=False)
@@ -90,7 +90,7 @@ async def handler(event):
                       Button.url('😍 Sahibəm', f'https://t.me/{sahib}')
                       ],
                       [
-                      Button.inline("🔙 Geri Qayıt", data="start"),
+                      Button.inline("👀 Geri Qayıt", data="start"),
                       ]
                     ),
                     link_preview=False)
