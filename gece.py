@@ -52,7 +52,7 @@ async def start(event):
   if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
      ad = f"👤 [{usr.first_name}](tg://user?id={usr.id})"
-     await client.send_message(log_qrup, f"ℹ️ **Yeni İstifadəçi:**\n {ad}")
+     await client.send_message(log_qrup, f"**Yeni İstifadəçi:**\n {ad}")
      return await event.reply(f"{ad} {startmesaj}", buttons=(
                       [
                        Button.url('🎉 Məni Qrupa Əlavə Et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
