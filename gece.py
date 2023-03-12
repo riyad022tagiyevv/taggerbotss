@@ -51,7 +51,7 @@ async def cancel(event):
 async def start(event):
   if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
-     ad = f"Salam😍❤️ [{usr.first_name}](tg://user?id={usr.id}) "
+     ad = f"[{usr.first_name}](tg://user?id={usr.id}) Salam😍❤️"
      await client.send_message(log_qrup, f"ℹ️ **Yeni İstifadəçi:** \n {ad}")
      return await event.reply(f"{ad} {startmesaj}", buttons=(
                       [
@@ -71,7 +71,7 @@ async def start(event):
 @client.on(events.callbackquery.CallbackQuery(data="start"))
 async def handler(event):
     async for usr in client.iter_participants(event.chat_id):
-     ad = f"Salam😍❤️ [{usr.first_name}](tg://user?id={usr.id}) "
+     ad = f"[{usr.first_name}](tg://user?id={usr.id}) Salam😍❤️"
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
                        Button.url('🎉 Məni Qrupa Əlavə Et 🎉', f'https://t.me/{USERNAME}?startgroup=a')],
