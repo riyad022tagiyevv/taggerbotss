@@ -51,7 +51,7 @@ async def cancel(event):
 async def start(event):
   if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
-     ad = f"[{usr.first_name}](tg://user?id={usr.id}) Salam😍❤️"
+     ad = f"[{usr.first_name}](tg://user?id={usr.id}) Salam!"
      await client.send_message(log_qrup, f"**Yeni İstifadəçi:**\n{ad}")
      return await event.reply(f"{ad} {startmesaj}", buttons=(
                       [
@@ -59,7 +59,7 @@ async def start(event):
                       [
                        Button.url('📚 Əmrlər', f'https://t.me/Rahid_44/32'),
                        Button.url('👨🏻‍💻 Sahibim', f'https://t.me/Rahid_7')],
-                       [Button.url('📢 Kanal', f'https://t.me/{support}')]
+                       [Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')]
                     ),
                     link_preview=False)
 
@@ -76,8 +76,8 @@ async def handler(event):
                       [
                        Button.url('➕ Məni Qrupa Əlavə Et ➕', f'https://t.me/{USERNAME}?startgroup=a')],
                       [Button.url("📚 Əmrlər", f'https://t.me/Rahid_44/32'),
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/noluf_du')]
-                       [Button.url('📢 Kanal', f'https://t.me/{support}')]
+                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/noluf_du')]
+                       [Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')]
                     ),
                     link_preview=False)
 
@@ -87,10 +87,10 @@ async def handler(event):
     await event.edit(f"{komutlar}", buttons=(
                       [
                       Button.url('💬 Söhbət Qrupu', f'https://t.me/Cenublar'),
-                      Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')
+                      Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/{sahib}')
                       ],
                       [
-                      Button.inline("👀 Geri Qayıt", data="start"),
+                      Button.inline("🔙 Geri", data="start"),
                       ]
                     ),
                     link_preview=False)
@@ -125,7 +125,7 @@ async def mentionall(event):
     await client.send_message(event.chat_id, "Tağ prosesini başlatdım 😍",
                     buttons=(
                       [
-                      Button.url('❤️ Kanalım', f'https://t.me/{support}')
+                      Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -139,7 +139,7 @@ async def mentionall(event):
         await event.respond("Tağ prosesini dayandırdım 👀",
                     buttons=(
                       [
-                       Button.url('❤️ Kanalım', f'https://t.me/{support}')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -184,7 +184,7 @@ async def mentionalladmin(event):
     await client.send_message(event.chat_id, "Tağ prosesini başlatdım 😍",
                     buttons=(
                       [
-                       Button.url('❤️ Kanalım', f'https://t.me/{support}')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -198,7 +198,7 @@ async def mentionalladmin(event):
         await event.respond("Tağ prosesi dayandırdım 👀",
                     buttons=(
                       [
-                       Button.url('❤️ Kanalım', f'https://t.me/{support}')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -243,7 +243,7 @@ async def tektag(event):
     await client.send_message(event.chat_id, "Tağ prosesini başlatdım 😍",
                     buttons=(
                       [
-                       Button.url('❤️ Kanalım', f'https://t.me/{support}')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -257,7 +257,7 @@ async def tektag(event):
         await event.respond("Tağ prosesi dayandırdım 👀",
                     buttons=(
                       [
-                       Button.url('❤️ Kanalım', f'https://t.me/{support}')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -317,7 +317,7 @@ async def etag(event):
     await client.send_message(event.chat_id, "Tağ prosesini başlatdım 😍",
                     buttons=(
                       [
-                       Button.url('❤️ Kanalım', f'https://t.me/{support}')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -331,7 +331,7 @@ async def etag(event):
         await event.respond("Tağ prosesi dayandırdım 👀",
                     buttons=(
                       [
-                       Button.url('❤️ Kanalım', f'https://t.me/{support}')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -426,7 +426,7 @@ async def stag(event):
     await client.send_message(event.chat_id, "Tağ prosesini başlatdım 😍",
                     buttons=(
                       [
-                       Button.url('❤️ Kanalım', f'https://t.me/{support}')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -440,7 +440,7 @@ async def stag(event):
         await event.respond("Tağ prosesi dayandırdım 👀",
                     buttons=(
                       [
-                       Button.url('❤️ Kanalım', f'https://t.me/{support}')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   )
@@ -492,7 +492,7 @@ async def rtag(event):
     await client.send_message(event.chat_id, "Tağ prosesini başlatdım 😍",
                     buttons=(
                       [
-                       Button.url('❤️ Kanalım', f'https://t.me/{support}')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -506,7 +506,7 @@ async def rtag(event):
         await event.respond("Tağ prosesi dayandırdım 👀",
                     buttons=(
                       [
-                       Button.url('❤️ Kanalım', f'https://t.me/{support}')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')
                       ]
                     )
                   )
