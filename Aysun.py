@@ -57,8 +57,8 @@ async def start(event):
                       [
                        Button.url('➕ Məni Qrupa Əlavə Et ➕', f'https://t.me/{USERNAME}?startgroup=a')],
                       [
-                       Button.url('📚 Əmrlər', f'https://t.me/Rahid_44/32'),
-                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/Rahid_7')],
+                       Button.url('📚 Əmrlər', f'https://t.me/NewModernBlog/31'),
+                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/WinstonAndMee')],
                        [Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')]
                     ),
                     link_preview=False)
@@ -75,8 +75,8 @@ async def handler(event):
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
                        Button.url('➕ Məni Qrupa Əlavə Et ➕', f'https://t.me/{USERNAME}?startgroup=a')],
-                      [Button.url("📚 Əmrlər", f'https://t.me/Rahid_44/32'),
-                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/noluf_du')]
+                      [Button.url("📚 Əmrlər", f'https://t.me/NewModernBlog/31'),
+                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/WinstonAndMee')]
                        [Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')]
                     ),
                     link_preview=False)
@@ -86,7 +86,7 @@ async def handler(event):
 async def handler(event):
     await event.edit(f"{komutlar}", buttons=(
                       [
-                      Button.url('💬 Söhbət Qrupu', f'https://t.me/Cenublar'),
+                      Button.url('💬 Söhbət Qrupu', f'https://t.me/PopularGrup'),
                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/{sahib}')
                       ],
                       [
@@ -521,6 +521,6 @@ async def rtag(event):
 ###
 
 
-print(">> Bot işləyir narahat olmayın 🚀 @Rahid_7 məlumat üçün <<")
+print(">> Bot işləyir narahat olmayın 🚀 @WinstonAndMee məlumat üçün <<")
 client.run_until_disconnected()
 run_until_disconnected()
