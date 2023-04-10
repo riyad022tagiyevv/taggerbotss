@@ -57,7 +57,7 @@ async def start(event):
                       [
                        Button.url('➕ Məni Qrupa Əlavə Et ➕', f'https://t.me/{USERNAME}?startgroup=a')],
                       [
-                       Button.url('📚 Əmrlər', f'https://t.me/WinstonBotResmi/31'),
+                       Button.url('📚 Əmrlər', f'https://t.me/WinstonResmi/31'),
                        Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/WinstonAndMee')],
                        [Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')]
                     ),
@@ -75,7 +75,7 @@ async def handler(event):
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
                        Button.url('➕ Məni Qrupa Əlavə Et ➕', f'https://t.me/{USERNAME}?startgroup=a')],
-                      [Button.url("📚 Əmrlər", f'https://t.me/WinstonBotResmi/31'),
+                      [Button.url("📚 Əmrlər", f'https://t.me/WinstonResmi/31'),
                        Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/WinstonAndMee')]
                        [Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')]
                     ),
