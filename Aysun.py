@@ -59,7 +59,7 @@ async def start(event):
                       [
                        Button.url('📚 Əmrlər', f'https://t.me/AbbasovBotKomutlar/2'),
                        Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/NatiqOwner')],
-                       [Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')]
+                       [Button.url('✅ Rəsmi Kanal', f'https://t.me/GtaResmiKanal')]
                     ),
                     link_preview=False)
 
@@ -77,7 +77,7 @@ async def handler(event):
                        Button.url('➕ Məni Qrupa Əlavə Et ➕', f'https://t.me/{USERNAME}?startgroup=a')],
                       [Button.url("📚 Əmrlər", f'https://t.me/AbbasovBotKomutlar/2'),
                        Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/NatiqOwner')]
-                       [Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')]
+                       [Button.url('✅ Rəsmi Kanal', f'https://t.me/GtaResmiKanal')]
                     ),
                     link_preview=False)
 
