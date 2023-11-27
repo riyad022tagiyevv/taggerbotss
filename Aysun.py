@@ -57,8 +57,8 @@ async def start(event):
                       [
                        Button.url('➕ Məni Qrupa Əlavə Et ➕', f'https://t.me/{USERNAME}?startgroup=a')],
                       [
-                       Button.url('📚 Əmrlər', f'https://t.me/WinstonResmi/31'),
-                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/WinstonAndMee')],
+                       Button.url('📚 Əmrlər', f'https://t.me/AbbasovBotKomutlar/2'),
+                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/NatiqOwner')],
                        [Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')]
                     ),
                     link_preview=False)
@@ -75,8 +75,8 @@ async def handler(event):
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
                        Button.url('➕ Məni Qrupa Əlavə Et ➕', f'https://t.me/{USERNAME}?startgroup=a')],
-                      [Button.url("📚 Əmrlər", f'https://t.me/WinstonResmi/31'),
-                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/WinstonAndMee')]
+                      [Button.url("📚 Əmrlər", f'https://t.me/AbbasovBotKomutlar/2'),
+                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/NatiqOwner')]
                        [Button.url('✅ Rəsmi Kanal', f'https://t.me/{support}')]
                     ),
                     link_preview=False)
@@ -86,7 +86,7 @@ async def handler(event):
 async def handler(event):
     await event.edit(f"{komutlar}", buttons=(
                       [
-                      Button.url('💬 Söhbət Qrupu', f'https://t.me/PopularGrup'),
+                      Button.url('💬 Söhbət Qrupu', f'https://t.me/GtaShopetQrup'),
                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/{sahib}')
                       ],
                       [
