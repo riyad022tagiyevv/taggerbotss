@@ -12,7 +12,7 @@ bot_token = "6989488036:AAHVfXzPzWhVt93_R0VLi7Kt3PNbvG4-sQU"
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 #
 USERNAME = "6181182367"
-log_qrup = -
+log_qrup = -1001999923100
 startmesaj = "\n\nMən qrupda bütün istifadəçiləri çağırmaq üçün tağ botuyam 🥰\n\nMəni qrupa əlavə edin sonra admin edərək tağ prosesi başlada bilərsən 👀"
 komutlar = "» /tag > 5 nəfərlik tağ edərəm 🙊\n\n» /tektag > Təkli tağ edərəm 🦦\n\n» /atag > Qrup adminlərini tağ edərəm 😁\n\n» /etag > Emojilər ilə tağ edərəm 🥰\n\n» /stag > Maraqlı sözlərlə tağ edərəm 😍\n\n» /cancel > Tağ prosesi dayandıraram 👀"
 qrupstart = "Mən işləyirəm 🥰\n\nBot əmrləri öyrənmək üçün şəxsimdə mənə yazın 👀"
